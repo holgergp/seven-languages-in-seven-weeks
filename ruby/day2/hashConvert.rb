@@ -17,6 +17,10 @@ puts "Iterate"
 {:first=>"test",:second=>"this",:third=>"feature"}.each {|key,value| puts "Key: #{key} Value: #{value}"}
 end
 
+# Datastructures supported by ruby arrays: queues, stacks, sets, arrays and lists
+
+
+
 a_t_h
 puts "============================================="
 h_t_a
