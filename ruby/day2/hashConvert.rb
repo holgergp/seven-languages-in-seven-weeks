@@ -19,6 +19,15 @@ puts "Iterate"
 {:first=>"test",:second=>"this",:third=>"feature"}.each {|key,value| puts "Key: #{key} Value: #{value}"}
 end
 
+def iterateOverNewHash
+  puts "Iterate over new Hash"
+  a1=["test","this",1,"feature"]
+ 
+  h2= Hash[*a1.flatten]
+  h2.each {|key,value| puts "Key: #{key} Value: #{value}"}
+  
+end
+
 # Datastructures supported by ruby arrays: queues, stacks, sets, arrays and lists
 
 
@@ -28,4 +37,6 @@ puts "============================================="
 h_t_a
 puts "============================================="
 iterate
+puts "============================================="
+
 
