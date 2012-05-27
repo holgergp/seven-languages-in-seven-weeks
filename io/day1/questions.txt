@@ -1,0 +1,58 @@
+
+1. Strongly typed:
+Io> 1+1
+==> 2
+Io> 1+"One"
+
+  Exception: argument 0 to method '+' must be a Number, not a 'Sequence'
+  ---------
+  message '+' in 'Command Line' on line 1
+
+Io> 1+"1"
+
+  Exception: argument 0 to method '+' must be a Number, not a 'Sequence'
+  ---------
+  message '+' in 'Command Line' on line 1
+
+2. O is True
+Io> 0 and true
+==> true
+"" is true
+Io> "" and true
+==> true
+Io> 
+nil is false
+Io> nil and true
+==> false
+Io> 
+
+3. Io> 1 proto slotNames
+==> list(constants, bitwiseComplement, >>, exp, permutations, bitwiseAnd, log, isInASequenceSet, log2, asin, toBaseWholeBytes, round, asSimpleString, isUppercase, isSpace, tan, floor, asUppercase, isLetter, cos, ^, squared, shortMin, mod, toBase, isHexDigit, toggle, sqrt, max, asUint32Buffer, negate, combinations, min, asBinary, cubed, asJson, asLowercase, clip, between, bitwiseOr, isAlphaNumeric, abs, unsignedIntMax, log10, shiftLeft, %, roundDown, repeat, shiftRight, +, /, integerMax, unsignedLongMax, floatMax, **, asOctal, &, factorial, at, asString, isNan, sin, acos, longMax, isPrint, |, isOdd, *, -, isPunctuation, isControlCharacter, <<, bitwiseXor, pow, isEven, isLowercase, asHex, minMax, isGraph, asCharacter, atan2, isDigit, asBuffer, asNumber, justSerialized, atan, ceil, longMin, integerMin, floatMin, shortMax)
+Io>
+
+4.
+
+::= 	Creates slot, creates setter, assigns value
+:= 	Creates slot, assigns value
+= 	Assigns value to slot if it exists, otherwise raises exception  
+
+5. io helloWorld.io
+
+6 
+Io> Test := Object clone
+==>  Test_0x27a7b0:
+  type             = "Test"
+
+Io> Test doSomething := Method("I am doing it" print)
+
+  Exception: Object does not respond to 'Method'
+  ---------
+  Object Method                        Command Line 1
+
+Io> Test doSomething := method("I am doing it" print)
+==> method(
+    "I am doing it" print
+)
+Io> Test doSomething
+I am doing it==> I am doing it
+Io>  

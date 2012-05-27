@@ -1,0 +1,66 @@
+Io 20110905
+Io> 
+==> nil
+Io>   Exception: argument 0 to method '+' must be a Number, not a 'Sequence'
+
+  Exception: compile error: "Syntax error near this location" on line 1 character 54
+  ---------
+  message 'Error' in '[unlabeled]' on line 0
+
+Io>   ---------
+
+  Exception: Object does not respond to '---------'
+  ---------
+  Object ---------                     Command Line 1
+
+Io>   message '+' in 'Command Line' on line 1
+
+  Exception: nil does not respond to ''+''
+  ---------
+  nil '+'                              Command Line 1
+
+Io> 
+==> nil
+Io> Io> 1+"1"
+
+  Exception: Object does not respond to 'Io'
+  ---------
+  Object Io                            Command Line 1
+
+Io> 
+==> nil
+Io>   Exception: argument 0 to method '+' must be a Number, not a 'Sequence'
+
+  Exception: compile error: "Syntax error near this location" on line 1 character 54
+  ---------
+  message 'Error' in '[unlabeled]' on line 0
+
+Io>   ---------
+
+  Exception: Object does not respond to '---------'
+  ---------
+  Object ---------                     Command Line 1
+
+Io>   message '+' in 'Command Line' on line 1
+
+  Exception: nil does not respond to ''+''
+  ---------
+  nil '+'                              Command Line 1
+
+Io> 
+==> nil
+Io> 0
+==> 0
+Io> 
+==> nil
+Io> cxyc 
+
+  Exception: Object does not respond to 'cxyc'
+  ---------
+  Object cxyc                          Command Line 1
+
+Io> 
+==> nil
+Io> 
+==> nil
+Io> sadasdasas
