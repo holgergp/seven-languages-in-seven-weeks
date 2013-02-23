@@ -55,4 +55,4 @@ Io> Test doSomething := method("I am doing it" print)
 )
 Io> Test doSomething
 I am doing it==> I am doing it
-Io>  
+Io> exe 
