@@ -1,5 +1,9 @@
 -module (count_word).
--export ([count/2]).
+-export ([wordcount/1]).
+
+
+wordcount([]) -> 0;
+wordcount(Sentence) -> count(Sentence,1).
 
 count("",N) -> N;
 count([32| Tail],N)  -> 
